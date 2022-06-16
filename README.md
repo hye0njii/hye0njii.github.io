@@ -92,15 +92,18 @@ Test 코드는 다음과 같다.
 ![image](https://user-images.githubusercontent.com/105009129/174098974-18161b58-cfdd-408e-985e-a592453b51e9.png)
 
 
-train loss가 점점 줄어드는데, 이를 최소화하기 위해 epoch의 수를 늘려서 다시 training을 했다.
+train loss를 최소화하기 위해 epoch의 수를 50으로 늘려서 다시 training을 했다.
 
-IV. Evaluation & Analysis
-- Graphs, tables, any statistics (if any)
-
-
-V. Related Work (e.g., existing studies)
-- Tools, libraries, blogs, or any documentation that you have used to do this project.
+![image](https://user-images.githubusercontent.com/105009129/174103298-1798a3d6-3b19-4085-9577-e300ade1fe44.png)
 
 
+![image](https://user-images.githubusercontent.com/105009129/174103356-e17e4984-8ade-4507-80d9-86feabccef2c.png)
+
+
+정확도가 낮아졌는데, 유의미한 변화는 아닌 것 같다.
+
+IV. Related Work 
+https://github.com/kairess/eye_blink_detector/blob/master/README.md
+https://github.com/yunseokddi/Pytorch_dev/tree/master/sleep_detect
 
 VI. Conclusion: Discussion
